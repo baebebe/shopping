@@ -39,7 +39,7 @@ ProductBean bean = productMgr.getProduct(request.getParameter("no"));
 	<tr>
 		<td>이미지</td>
 		<td>
-			<img src="../data/<%=bean.getImage()%>">
+			<img src="../data/<%=bean.getImage()%>"><br>
 			<input type="file" name="image" size="30">
 		</td>
 	</tr>
